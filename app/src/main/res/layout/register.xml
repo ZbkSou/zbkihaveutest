@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/screen_5_percent"
+        android:paddingRight="@dimen/screen_5_percent" >
+
+        <!-- 邮箱 -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+           ></EditText>
+        <!-- 姓名 -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            ></EditText>
+        <!-- 密码 -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+         ></EditText>
+        <!-- 重复密码 -->
+        <EditText
+            android:id="@+id/repeat_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_repeat_password"
+           ></EditText>
+        <!-- 验证码 -->
+
+        <LinearLayout
+            android:id="@+id/captcha_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/register_edittext_height"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+            <EditText
+                android:id="@+id/captcha"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_captcha"
+                ></EditText>
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/captcha_image"
+                android:layout_width="80dp"
+                android:layout_height="@dimen/register_captcha_image_height"
+                android:layout_marginLeft="@dimen/screen_3_percent"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+        <!-- 推广码 -->
+        <EditText
+            android:id="@+id/tuiguang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_tuiguang"></EditText>
+        <!-- 注册按钮 -->
+        <Button
+            android:id="@+id/reginer_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/register_button_height"
+            android:text="注册"
+            android:layout_marginTop="30dp"
+            />
+
+        <!-- 文字提示 -->
+
+    </LinearLayout>
+</ScrollView>

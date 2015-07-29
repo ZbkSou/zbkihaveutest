@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 240dp屏幕 -->
+    <dimen name="screen_width">240dp</dimen>
+    <dimen name="screen_5_percent">12.5dp</dimen>
+    <dimen name="screen_61.5_percent">148dp</dimen><!-- 147.6 -->
+    <dimen name="screen_25_percent">60dp</dimen>
+    <dimen name="screen_3_percent">7dp</dimen><!-- 7.2 -->
+    <dimen name="screen_40_percent">96dp</dimen>
+    <dimen name="category_width">388dp</dimen>
+    <!-- 分类页 -->
+    <dimen name="category_first_level_width">103dp</dimen><!-- 103.2  43% -->
+    <dimen name="category_second_level_width">137dp</dimen><!-- 136.8dp 57% -->
+    <!-- 注册页 -->
+    <dimen name="register_captcha_image_height">42dp</dimen>
+    <dimen name="register_edittext_height">62dp</dimen>
+    <dimen name="register_edittext_to_null_image_width">24dp</dimen>
+    <dimen name="register_edittext_to_null_image_height">24dp</dimen>
+    <dimen name="register_edittext_to_null_image_marginright">8dp</dimen>
+    <dimen name="register_edittext_to_null_image_marginbottom">18dp</dimen>
+    <dimen name="register_button_height">50dp</dimen>
+    <dimen name="fu_register_button_height">-50dp</dimen>
+    <dimen name="register_text_small_size">18dp</dimen>
+</resources>
