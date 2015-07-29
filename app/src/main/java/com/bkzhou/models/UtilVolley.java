@@ -21,6 +21,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -290,12 +291,17 @@ public class UtilVolley {
         }){
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
-                return super.getParams();
+                return params;
             }
 
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
-                return super.getHeaders();
+                HashMap<String ,String > heahers  = new HashMap<String,String>();
+                if(mCookies != null &&  mCookies.length()>0){
+
+                }
+
+                return headers;
             }
         };
 
